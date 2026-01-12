@@ -39,8 +39,8 @@
 ### 🔹 Two Pointers
 - ✅**283. Move Zeroes**
 - ✅**344. Reverse String**
-- **125. Valid Palindrome**
-- **167. Two Sum II – Input Array Is Sorted**
+- ✅**125. Valid Palindrome**
+- ✅**167. Two Sum II – Input Array Is Sorted**
 
 ---
 
@@ -164,14 +164,6 @@
   - `Array#push`, `Array#pop`
 - Avoid heavy Ruby magic in interviews
 - Always explain your approach before coding
-
----
-
-# 🎯 Final Notes
-
-- You already have **backend + production experience**
-- Interviews only test **problem-solving polish**
-- Follow patterns → speed will come naturally
 
 ---
 

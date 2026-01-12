@@ -327,6 +327,12 @@ puts <<~RAILS
   }
 RAILS
 
+puts "\n========== 13. GREEDY VS LAZY =========="
+
+# Symbol    Name    Behavior
+# * or +    Greedy    Matches the longest possible string.
+# *? or +?  Lazy      Matches the shortest possible string.
+
 
 puts "\n========== END OF REGEX TUTORIAL =========="
 
@@ -433,3 +439,207 @@ text = "one one one two two two three three three four five six"
 triplets = text.scan(/(\w+)\s\1\s\1/)
 puts triplets.inspect
 # => [["one"], ["two"], ["three"]]
+
+
+
+# ==========================================================
+# REGEX INTERVIEW PRACTICE – INPUT | RESULT | RUBY USAGE
+# ==========================================================
+# Run with:
+# ruby regex_interview_practice.rb
+# ==========================================================
+
+
+puts "\n========== SECTION 1: INPUT | RESULT | RUBY USAGE =========="
+
+# Q1
+input = "abc123"
+result = "abc"
+ruby_usage = input.match(/[a-z]+/)&.to_s
+puts ruby_usage
+
+# Q2
+input = "abc123"
+result = "abc123"
+ruby_usage = input.match(/\w+/)&.to_s
+puts ruby_usage
+
+# Q3
+input = "123abc"
+result = nil
+ruby_usage = input.match(/^[a-z]+/i)&.to_s
+puts ruby_usage.inspect
+
+# Q4
+input = "hello_world-123"
+result = "hello_world"
+ruby_usage = input.match(/\w+/)&.to_s
+puts ruby_usage
+
+# Q5
+input = "user@example.com"
+result = true
+ruby_usage = !!(input =~ /\A[\w.+-]+@[a-z\d.-]+\.[a-z]{2,}\z/i)
+puts ruby_usage
+
+# Q6
+input = "98-76-54-3210"
+result = "9876543210"
+ruby_usage = input.gsub(/-/, "")
+puts ruby_usage
+
+# Q7
+input = "2025-12-28"
+result = ["2025", "12", "28"]
+ruby_usage = input.match(/(\d{4})-(\d{2})-(\d{2})/)&.captures
+puts ruby_usage.inspect
+
+# Q8
+input = "the the cat cat dog"
+result = ["the", "cat"]
+ruby_usage = input.scan(/(\w+)\s\1/).flatten
+puts ruby_usage.inspect
+
+# Q9
+input = "one one one two two two three"
+result = ["one", "two"]
+ruby_usage = input.scan(/(\w+)\s\1\s\1/).flatten
+puts ruby_usage.inspect
+
+# Q10
+input = "price:$100 $250 $30"
+result = ["100", "250", "30"]
+ruby_usage = input.scan(/(?<=\$)\d+/)
+puts ruby_usage.inspect
+
+
+puts "\n========== SECTION 2: REGEX DEBUGGING (INPUT | RESULT | RUBY USAGE) =========="
+
+# D1
+input = "abc"
+result = "abc"
+ruby_usage = input.match(/[a-z]+/)&.to_s
+puts ruby_usage
+
+# D2
+input = "abc123"
+result = nil
+ruby_usage = input.match(/^[a-z]+$/i)&.to_s
+puts ruby_usage.inspect
+
+# D3
+input = "ruby\nruby"
+result = "ruby"
+ruby_usage = input.match(/^ruby$/)&.to_s
+puts ruby_usage.inspect
+
+# D4
+input = ""
+result = ""
+ruby_usage = input.match(/\d*/)&.to_s
+puts ruby_usage.inspect
+
+# D5
+input = "1234567890"
+result = true
+ruby_usage = !!(input =~ /^\d{10}$/)
+puts ruby_usage
+
+# D6
+input = "the the"
+result = "the"
+ruby_usage = input.match(/(\w+)\s\1/)&.captures
+puts ruby_usage.inspect
+
+# D7
+input = "<div>one</div><div>two</div>"
+result = "<div>one</div>"
+ruby_usage = input.scan(/<div>.*?<\/div>/)
+puts ruby_usage.inspect
+
+# D8
+input = "hello-world"
+result = "hello"
+ruby_usage = input.match(/\w+/)&.to_s
+puts ruby_usage
+
+# D9
+input = "abc_123"
+result = "abc_123"
+ruby_usage = input.match(/\w+/)&.to_s
+puts ruby_usage
+
+# D10
+input = "Abc12"
+result = true
+ruby_usage = !!(input =~ /^[a-z0-9_]{5,}$/i)
+puts ruby_usage
+
+
+puts "\n========== SECTION 3: RAILS VALIDATION (INPUT | RESULT | RUBY USAGE) =========="
+
+# R1
+input = "test@gmail.com"
+result = true
+ruby_usage = !!(input =~ /\A[\w.+-]+@[a-z\d.-]+\.[a-z]{2,}\z/i)
+puts ruby_usage
+
+# R2
+input = "user_12"
+result = true
+ruby_usage = !!(input =~ /\A[a-z0-9_]{5,}\z/i)
+puts ruby_usage
+
+# R3
+input = "9876543210"
+result = true
+ruby_usage = !!(input =~ /\A[6-9]\d{9}\z/)
+puts ruby_usage
+
+# R4
+input = "abc12345"
+result = true
+ruby_usage = !!(input =~ /(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}/)
+puts ruby_usage
+
+
+puts "\n========== SECTION 4: REGEX → LEETCODE STYLE =========="
+
+# LC1
+input = "the sky is blue"
+result = "blue is sky the"
+ruby_usage = input.scan(/\w+/).reverse.join(" ")
+puts ruby_usage
+
+# LC2
+input = "A man, a plan, a canal: Panama"
+result = "amanaplanacanalpanama"
+ruby_usage = input.gsub(/[^a-z0-9]/i, "").downcase
+puts ruby_usage
+
+# LC3
+input = "find the longest word here"
+result = "longest"
+ruby_usage = input.scan(/\w+/).max_by(&:length)
+puts ruby_usage
+
+# LC4
+input = "cat cat dog dog bird"
+result = ["cat", "dog"]
+ruby_usage = input.scan(/(\w+)\s\1/).flatten
+puts ruby_usage.inspect
+
+# LC5
+input = "temp is -10 and 25 degrees"
+result = ["-10", "25"]
+ruby_usage = input.scan(/-?\d+/)
+puts ruby_usage.inspect
+
+# LC6
+input = "values: 10.5 -2.3 4"
+result = ["10.5", "-2.3"]
+ruby_usage = input.scan(/-?\d+\.\d+/)
+puts ruby_usage.inspect
+
+
+puts "\n========== END OF FILE =========="
