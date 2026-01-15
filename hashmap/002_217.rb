@@ -1,4 +1,6 @@
-217. Contains Duplicate
+#217. Contains Duplicate
+
+=begin
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
  
@@ -38,7 +40,7 @@ Constraints:
  
 Seen this question in a real interview before?
 1/5
-
+=end
 
 # @param {Integer[]} nums
 # @return {Boolean}

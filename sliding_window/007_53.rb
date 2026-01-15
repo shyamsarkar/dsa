@@ -1,7 +1,7 @@
-53. Maximum Subarray
-Given an integer array nums, find the subarray with the largest sum, and return its sum.
+# 53. Maximum Subarray
 
- 
+=begin
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
 Example 1:
 
@@ -31,6 +31,8 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
  
 Seen this question in a real interview before?
 1/5
+=end
+
 # @param {Integer[]} nums
 # @return {Integer}
 def max_sub_array(nums)

@@ -1,5 +1,6 @@
-242. Valid Anagram
+#242. Valid Anagram
 
+=begin
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
  
@@ -25,6 +26,7 @@ s and t consist of lowercase English letters.
  
 
 Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+=end
 
 # @param {String} s
 # @param {String} t

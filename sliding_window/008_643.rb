@@ -1,4 +1,6 @@
-643. Maximum Average Subarray I
+# 643. Maximum Average Subarray I
+
+=begin
 You are given an integer array nums consisting of n elements, and an integer k.
 
 Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
@@ -24,6 +26,7 @@ n == nums.length
  
 Seen this question in a real interview before?
 1/5
+=end
 
 # @param {Integer[]} nums
 # @param {Integer} k
