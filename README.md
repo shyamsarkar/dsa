@@ -46,13 +46,13 @@
 
 ### 🔹 Stack
 - ✅**20. Valid Parentheses**
-- **232. Implement Queue using Stacks**
-- **155. Min Stack**
+- ✅**232. Implement Queue using Stacks**
+- ✅**155. Min Stack**
 
 ---
 
 ### 🔹 Recursion Basics
-- **509. Fibonacci Number**
+- ✅**509. Fibonacci Number**
 - **206. Reverse Linked List (Recursive)**
 
 ---
