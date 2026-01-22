@@ -53,7 +53,7 @@
 
 ### 🔹 Recursion Basics
 - ✅**509. Fibonacci Number**
-- **206. Reverse Linked List (Recursive)**
+- ✅**206. Reverse Linked List (Recursive)**
 
 ---
 
