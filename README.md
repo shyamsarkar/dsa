@@ -60,7 +60,7 @@
 # ✅ STEP 2: Trees & Linked Lists (Week 3)
 
 ### 🔹 Linked List Patterns
-- **206. Reverse Linked List**
+- ✅**206. Reverse Linked List**
 - **141. Linked List Cycle**
 - **21. Merge Two Sorted Lists**
 - **19. Remove Nth Node From End of List**
