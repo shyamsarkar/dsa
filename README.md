@@ -8,7 +8,7 @@
 
 ---
 
-# ✅ STEP 1: Solidify Core Patterns (Week 1–2)
+# STEP 1: Solidify Core Patterns (Phase 1 · Week 1–2)
 
 ### 🔹 Must-Know Patterns
 - Two Pointers
@@ -26,6 +26,16 @@
 - ✅**169. Majority Element**
 - ✅**219. Contains Duplicate II**
 
+**Phase 2 (Medium / Depth Building)**
+- **49. Group Anagrams**
+- **383. Ransom Note**
+- **387. First Unique Character in a String**
+- **451. Sort Characters By Frequency**
+- **136. Single Number**
+- **560. Subarray Sum Equals K**
+- **454. 4Sum II**
+
+👉 Focus: frequency counting, prefix sums, hash default values
 ---
 
 ### 🔹 Sliding Window
@@ -34,6 +44,13 @@
 - ✅**643. Maximum Average Subarray I**
 - ✅**3. Longest Substring Without Repeating Characters**
 
+**Phase 2 (Medium / Variable Window)**
+- **76. Minimum Window Substring**
+- **438. Find All Anagrams in a String**
+- **567. Permutation in String**
+- **424. Longest Repeating Character Replacement**
+
+👉 Focus: fixed vs variable window, character counts
 ---
 
 ### 🔹 Two Pointers
@@ -42,6 +59,14 @@
 - ✅**125. Valid Palindrome**
 - ✅**167. Two Sum II – Input Array Is Sorted**
 
+**Phase 2 (Medium / Hybrid Patterns)**
+- **15. 3Sum**
+- **11. Container With Most Water**
+- **18. 4Sum**
+- **202. Happy Number**
+- **349. Intersection of Two Arrays**
+
+👉 Focus: sorting + pointers, slow/fast pointers
 ---
 
 ### 🔹 Stack
@@ -49,6 +74,12 @@
 - ✅**232. Implement Queue using Stacks**
 - ✅**155. Min Stack**
 
+**Phase 2 (Monotonic / Expression Stack)**
+- **739. Daily Temperatures**
+- **496. Next Greater Element I**
+- **150. Evaluate Reverse Polish Notation**
+
+👉 Focus: monotonic stack, stack state meaning
 ---
 
 ### 🔹 Recursion Basics
@@ -57,7 +88,7 @@
 
 ---
 
-# ✅ STEP 2: Trees & Linked Lists (Week 3)
+# STEP 2: Trees & Linked Lists (Phase 2 · Week 3)
 
 ### 🔹 Linked List Patterns
 - ✅**206. Reverse Linked List**
@@ -77,7 +108,7 @@
 
 ---
 
-# ✅ STEP 3: Advanced Patterns (Week 4–5)
+# STEP 3: Advanced Patterns (Phase 3 · Week 4–5)
 
 ### 🔹 Binary Search
 - **704. Binary Search**
@@ -85,6 +116,12 @@
 - **33. Search in Rotated Sorted Array**
 - **278. First Bad Version**
 
+**Phase 2 (Binary Search on Answer)**
+- **875. Koko Eating Bananas**
+- **1011. Capacity To Ship Packages Within D Days**
+- **410. Split Array Largest Sum**
+
+👉 Focus: monotonic condition, low/high answer space
 ---
 
 ### 🔹 Heap / Priority Queue
@@ -115,7 +152,7 @@
 
 ---
 
-# ✅ STEP 4: Dynamic Programming (Week 6–7)
+# STEP 4: Dynamic Programming (Phase 4 · Week 6–7)
 
 > ⚠️ Do not rush DP. Focus on state, recurrence, and optimization.
 
@@ -141,7 +178,7 @@
 
 ---
 
-# ✅ STEP 5: Company-Level Practice (Week 8+)
+# STEP 5: Company-Level Practice (Phase 5 · Week 8+)
 
 ### 🔹 Interview Favorites (Mostly Medium)
 - **102. Binary Tree Level Order Traversal**
@@ -167,7 +204,5 @@
 
 ---
 
-✅ **Total Problems: 60**  
 🚀 This roadmap is enough for most product-based company interviews.
-
 Happy coding!
