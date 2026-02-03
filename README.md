@@ -206,3 +206,111 @@
 
 🚀 This roadmap is enough for most product-based company interviews.
 Happy coding!
+
+--------------------------------------------------------------------
+
+1️⃣ How many questions are we solving?
+
+Below is a pattern-wise count based on what you now have (Phase 1 + Phase 2).
+
+🔹 HashMap / Counting
+Phase 1: 5
+Phase 2: 7
+✅ Total: 12
+
+🔹 Sliding Window
+Phase 1: 4
+Phase 2: 4
+✅ Total: 8
+
+🔹 Two Pointers
+Phase 1: 4
+Phase 2: 5
+✅ Total: 9
+
+🔹 Stack
+Phase 1: 3
+Phase 2: 3
+✅ Total: 6
+
+🔹 Recursion Basics
+Phase 1: 2
+Phase 2: 0 (intentional — recursion depth comes later via trees/DP)
+✅ Total: 2
+
+🔹 Linked List
+Phase 1: 2
+Phase 2: 2
+✅ Total: 4
+
+🔹 Binary Tree (DFS / BFS)
+Phase 1: 6
+Phase 2: 0 (company-level questions cover harder variants)
+✅ Total: 6
+
+🔹 Binary Search
+Phase 1: 4
+Phase 2 (Binary Search on Answer): 3
+✅ Total: 7
+
+🔹 Heap / Priority Queue
+Phase 1 only: 3
+✅ Total: 3
+
+🔹 Monotonic Stack
+Phase 1 only: 3
+✅ Total: 3
+
+🔹 Greedy
+Phase 1 only: 3
+✅ Total: 3
+
+🔹 Backtracking
+Phase 1 only: 3
+✅ Total: 3
+
+🔹 Dynamic Programming
+
+1D DP: 3
+2D DP: 3
+
+String DP: 2
+✅ Total: 8
+
+🔹 Company-Level Practice
+✅ Total: 8
+✅ GRAND TOTAL ≈ 85–90 questions
+
+This is very solid: Enough for AI interviews, Enough for mid-level Rails / React roles, Not bloated like 300-question sheets
+
+
+2️⃣ Are we missing any EASY questions?
+
+Only a few optional easies — not blockers.
+🟡 Optional Easy Adds (only if you want extra confidence)
+
+HashMap
+
+1. Two Sum ✅ already there (perfect)
+290. Word Pattern (easy interview favorite)
+
+Sliding Window
+
+219. Contains Duplicate II ✅ already covered via HashMap
+187. Repeated DNA Sequences (optional)
+
+Two Pointers
+
+26. Remove Duplicates from Sorted Array
+27. Remove Element
+
+Stack
+
+682. Baseball Game (very easy stack warm-up)
+
+Binary Search
+
+69. Sqrt(x) (classic easy)
+
+👉 Important: You are NOT missing any “must-do” easy question.
+These are only for warming up or confidence.
