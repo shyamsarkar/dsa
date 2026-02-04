@@ -42,6 +42,15 @@ Constraints:
  
 Seen this question in a real interview before?
 1/5
+
+Tests:
+1        # already happy
+7
+10       # 1² + 0² = 1
+19       # classic example
+28
+100
+1000
 =end
 
 

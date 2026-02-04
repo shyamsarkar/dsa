@@ -36,6 +36,7 @@
 - ✅**136. Single Number**
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
+- **205. Isomorphic Strings**
 
 👉 Focus: frequency counting, prefix sums, hash default values
 ---
@@ -65,7 +66,7 @@
 - **15. 3Sum**
 - **11. Container With Most Water**
 - **18. 4Sum**
-- **202. Happy Number**
+- ✅**202. Happy Number**
 - **349. Intersection of Two Arrays**
 
 👉 Focus: sorting + pointers, slow/fast pointers
@@ -95,7 +96,7 @@
 ### 🔹 Linked List Patterns
 - ✅**206. Reverse Linked List**
 - ✅**141. Linked List Cycle**
-- **21. Merge Two Sorted Lists**
+- ✅**21. Merge Two Sorted Lists**
 - **19. Remove Nth Node From End of List**
 
 ---
@@ -216,8 +217,8 @@ Below is a pattern-wise count based on what you now have (**Phase 1 + Phase 2**)
 
 ### 🔹 HashMap / Counting
 - Phase 1: 5
-- Phase 2: 9  
-- ✅ **Total: 14**
+- Phase 2: 10
+- ✅ **Total: 15**
 
 ### 🔹 Sliding Window
 - Phase 1: 4
