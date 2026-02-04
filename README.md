@@ -28,10 +28,12 @@
 
 **Phase 2 (Medium / Depth Building)**
 - **49. Group Anagrams**
-- **383. Ransom Note**
-- **387. First Unique Character in a String**
+- ✅**383. Ransom Note**
+- ✅**387. First Unique Character in a String**
+- ✅**389. Find The Difference**
+- ✅**409. Longest Palindrome**
 - **451. Sort Characters By Frequency**
-- **136. Single Number**
+- ✅**136. Single Number**
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
 
@@ -214,8 +216,8 @@ Below is a pattern-wise count based on what you now have (**Phase 1 + Phase 2**)
 
 ### 🔹 HashMap / Counting
 - Phase 1: 5
-- Phase 2: 7  
-- ✅ **Total: 12**
+- Phase 2: 9  
+- ✅ **Total: 14**
 
 ### 🔹 Sliding Window
 - Phase 1: 4
