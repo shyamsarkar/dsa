@@ -1,5 +1,5 @@
 # require 'debug'
-require './PriorityQueue.rb'
+require './000PriorityQueue.rb'
 def dijkstra(graph, start, finish)
   distances = Hash.new(Float::INFINITY)
   previous = {}
@@ -9,7 +9,7 @@ def dijkstra(graph, start, finish)
   
   # Priority queue: [node, distance]
   pq = PriorityQueue.new
-  pq.push(start, 0)
+  pq.push(0, start)
   
   
   until pq.empty?
@@ -28,7 +28,7 @@ def dijkstra(graph, start, finish)
       if new_distance < distances[neighbor]
         distances[neighbor] = new_distance
         previous[neighbor] = current
-        pq.push(neighbor, new_distance)
+        pq.push(new_distance, neighbor)
       end
     end
   end

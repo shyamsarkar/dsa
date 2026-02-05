@@ -3,7 +3,7 @@ class PriorityQueue
     @heap = []
   end
 
-  def push(item, priority)
+  def push(priority, item)
     @heap << [priority, item]
     bubble_up(@heap.size - 1)
   end
@@ -28,7 +28,7 @@ class PriorityQueue
     
     parent = (index - 1) / 2
     if @heap[index][0] < @heap[parent][0]
-      @heap[index], @heap[parent] = @heap[parent], @heap[index]
+      swap(index, parent)
       bubble_up(parent)
     end
   end
@@ -42,8 +42,12 @@ class PriorityQueue
     smallest = right if right < @heap.size && @heap[right][0] < @heap[smallest][0]
 
     if smallest != index
-      @heap[index], @heap[smallest] = @heap[smallest], @heap[index]
+      swap(index, smallest)
       bubble_down(smallest)
     end
+  end
+
+  def swap(i, j)
+    @heap[i], @heap[j] = @heap[j], @heap[i]
   end
 end
