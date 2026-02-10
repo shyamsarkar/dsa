@@ -1,0 +1,89 @@
+# 226. Invert Binary Tree
+
+=begin
+Given the root of a binary tree, invert the tree, and return its root.
+
+ 
+
+Example 1:
+
+
+Input: root = [4,2,7,1,3,6,9]
+Output: [4,7,2,9,6,3,1]
+Example 2:
+
+
+Input: root = [2,1,3]
+Output: [2,3,1]
+Example 3:
+
+Input: root = []
+Output: []
+ 
+
+Constraints:
+
+The number of nodes in the tree is in the range [0, 100].
+-100 <= Node.val <= 100
+ 
+Seen this question in a real interview before?
+1/5
+=end
+
+=begin
+      4
+     / \
+    2   7
+   / \ / \
+  1  3 6  9
+
+      4
+     / \
+    7   2
+   / \ / \
+  9  6 3  1
+
+=end
+
+# Definition for a binary tree node.
+# class TreeNode
+#     attr_accessor :val, :left, :right
+#     def initialize(val = 0, left = nil, right = nil)
+#         @val = val
+#         @left = left
+#         @right = right
+#     end
+# end
+# @param {TreeNode} root
+# @return {TreeNode}
+
+
+# Ruby Solution (Recursive – Most Common)
+def invert_tree(root)
+    return if root.nil?
+
+    root.left, root.right = root.right, root.left
+
+    invert_tree(root.left)
+    invert_tree(root.right)
+
+    root
+end
+
+# Iterative Version (BFS – Using Queue)
+def invert_tree(root)
+  return nil if root.nil?
+
+  queue = [root]
+
+  until queue.empty?
+    node = queue.shift
+
+    node.left, node.right = node.right, node.left
+
+    queue << node.left if node.left
+    queue << node.right if node.right
+  end
+
+  root
+end
