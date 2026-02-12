@@ -106,7 +106,7 @@
 - ✅**104. Maximum Depth of Binary Tree**
 - ✅**111. Minimum Depth of Binary Tree**
 - ✅**543. Diameter of Binary Tree**
-- **100. Same Tree**
+- ✅**100. Same Tree**
 - **101. Symmetric Tree**
 
 ---
