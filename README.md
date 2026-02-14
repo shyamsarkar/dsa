@@ -114,13 +114,13 @@
 # STEP 3: Advanced Patterns (Phase 3 · Week 4–5)
 
 ### 🔹 Binary Search
-- **704. Binary Search**
-- **35. Search Insert Position**
+- ✅**704. Binary Search**
+- ✅**35. Search Insert Position**
 - **33. Search in Rotated Sorted Array**
-- **278. First Bad Version**
+- ✅**278. First Bad Version**
 
 **Phase 2 (Binary Search on Answer)**
-- **875. Koko Eating Bananas**
+- ✅**875. Koko Eating Bananas**
 - **1011. Capacity To Ship Packages Within D Days**
 - **410. Split Array Largest Sum**
 
