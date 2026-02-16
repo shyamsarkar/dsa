@@ -121,8 +121,8 @@
 
 **Phase 2 (Binary Search on Answer)**
 - ✅**875. Koko Eating Bananas**
-- **1011. Capacity To Ship Packages Within D Days**
-- **410. Split Array Largest Sum**
+- ✅**1011. Capacity To Ship Packages Within D Days**
+- ✅**410. Split Array Largest Sum**
 
 👉 Focus: monotonic condition, low/high answer space
 ---
