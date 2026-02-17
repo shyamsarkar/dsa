@@ -22,6 +22,7 @@ def partition(arr, low, high)
 end
 
 # arr = [5, 3, 8, 4, 2]
+=begin
 arr = [3, 7, 1, 4, 9, 2, 8, 0, 6, 5]
 quicksort(arr)
 puts arr.inspect
@@ -38,3 +39,4 @@ puts arr.inspect
 [3, 1, 4, 2, 0, 5, 8, 9, 6, 7] i=4+1=5
 
 https://shyamsarkar.github.io/sorting_animation/
+=end
