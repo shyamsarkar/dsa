@@ -31,6 +31,10 @@ Seen this question in a real interview before?
 # @param {Integer[]} nums
 # @param {Integer} k
 # @return {Integer}
+
+
+# Quick-Select Approach
+
 def find_kth_largest(nums, k)
     target_index = nums.length - k
     quick_select(nums, 0, nums.length - 1, target_index)
@@ -67,4 +71,58 @@ def partition(arr, left, right)
     i += 1
     arr[i], arr[right] = arr[right], arr[i]
     i
+end
+
+# Min-Heap approach
+
+def find_kth_largest(nums, k)
+    heap = []
+
+    nums.each do |num|
+        heap = insert_item(heap, num)
+        heap = remove_minimum(heap) if heap.length > k
+    end
+
+    heap[0]
+end
+
+def insert_item(heap, item)
+    heap << item
+
+    index = heap.length - 1
+    while index > 0
+        parent = (index - 1) / 2
+        break if heap[index] >= heap[parent]
+
+        if heap[index] < heap[parent]
+            heap[index], heap[parent] = heap[parent], heap[index]
+        end
+
+        index = parent
+    end
+
+    heap
+end
+
+def remove_minimum(heap)
+    heap[0], heap[-1] = heap[-1], heap[0]
+    heap.pop
+
+    index = 0
+
+    while index < heap.length
+        smallest = index
+        left = 2 * index + 1
+        right = 2 * index + 2
+
+        smallest = left if left < heap.length && heap[left] < heap[smallest]
+        smallest = right if right < heap.length && heap[right] < heap[smallest]
+
+        break if smallest == index
+
+        heap[index], heap[smallest] = heap[smallest], heap[index]
+        index = smallest
+    end
+
+    heap
 end
