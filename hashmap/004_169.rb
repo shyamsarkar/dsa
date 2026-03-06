@@ -30,6 +30,8 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 
 # @param {Integer[]} nums
 # @return {Integer}
+
+# Boyer-Moore Voting Algorithm
 def majority_element(nums)
     count = 0
     selected = nil

@@ -33,6 +33,8 @@ Seen this question in a real interview before?
 
 # @param {Integer[]} prices
 # @return {Integer}
+
+# Greedy Algorithm - Make the best local choice at each step, never look back.
 def max_profit(prices)
     min_price = Float::INFINITY
     profit = 0
