@@ -26,19 +26,7 @@
 - ✅**169. Majority Element**
 - ✅**219. Contains Duplicate II**
 
-**Phase 2 (Medium / Depth Building)**
-- **49. Group Anagrams**
-- ✅**383. Ransom Note**
-- ✅**387. First Unique Character in a String**
-- ✅**389. Find The Difference**
-- ✅**409. Longest Palindrome**
-- **451. Sort Characters By Frequency**
-- ✅**136. Single Number**
-- **560. Subarray Sum Equals K**
-- **454. 4Sum II**
-- **205. Isomorphic Strings**
-
-👉 Focus: frequency counting, prefix sums, hash default values
+👉 Focus: frequency counting, hash lookups
 ---
 
 ### 🔹 Sliding Window
@@ -47,13 +35,7 @@
 - ✅**643. Maximum Average Subarray I**
 - ✅**3. Longest Substring Without Repeating Characters**
 
-**Phase 2 (Medium / Variable Window)**
-- **76. Minimum Window Substring**
-- **438. Find All Anagrams in a String**
-- **567. Permutation in String**
-- **424. Longest Repeating Character Replacement**
-
-👉 Focus: fixed vs variable window, character counts
+👉 Focus: fixed vs variable window
 ---
 
 ### 🔹 Two Pointers
@@ -61,15 +43,9 @@
 - ✅**344. Reverse String**
 - ✅**125. Valid Palindrome**
 - ✅**167. Two Sum II – Input Array Is Sorted**
+- **977. Squares of a Sorted Array**
 
-**Phase 2 (Medium / Hybrid Patterns)**
-- **15. 3Sum**
-- **11. Container With Most Water**
-- **18. 4Sum**
-- ✅**202. Happy Number**
-- **349. Intersection of Two Arrays**
-
-👉 Focus: sorting + pointers, slow/fast pointers
+👉 Focus: pointer movement, sorted arrays
 ---
 
 ### 🔹 Stack
@@ -77,12 +53,7 @@
 - ✅**232. Implement Queue using Stacks**
 - ✅**155. Min Stack**
 
-**Phase 2 (Monotonic / Expression Stack)**
-- **739. Daily Temperatures**
-- **496. Next Greater Element I**
-- **150. Evaluate Reverse Polish Notation**
-
-👉 Focus: monotonic stack, stack state meaning
+👉 Focus: stack operations
 ---
 
 ### 🔹 Recursion Basics
@@ -90,6 +61,58 @@
 - ✅**206. Reverse Linked List (Recursive)**
 
 ---
+
+## Phase 2: Depth Building (Medium Problems)
+
+### 🔹 HashMap / Counting
+- **49. Group Anagrams**
+- **✅ 383. Ransom Note**
+- **✅ 387. First Unique Character in a String**
+- **✅ 389. Find The Difference**
+- **✅ 409. Longest Palindrome**
+- **451. Sort Characters By Frequency**
+- **✅ 136. Single Number**
+- **560. Subarray Sum Equals K**
+- **454. 4Sum II**
+- **205. Isomorphic Strings**
+- **3046**
+
+👉 Focus: prefix sums, frequency counting
+---
+
+### 🔹 Sliding Window
+- **76. Minimum Window Substring**
+- **438. Find All Anagrams in a String**
+- **567. Permutation in String**
+- **424. Longest Repeating Character Replacement**
+
+---
+
+### 🔹 Two Pointers
+- **15. 3Sum**
+- **11. Container With Most Water**
+- **18. 4Sum**
+- **✅ 202. Happy Number**
+- **349. Intersection of Two Arrays**
+
+---
+
+### 🔹 Stack
+- **739. Daily Temperatures**
+- **496. Next Greater Element I**
+- **150. Evaluate Reverse Polish Notation**
+
+---
+
+### 🔹 Math / Number Manipulation
+- **7. Reverse Integer**
+- **9. Palindrome Number**
+- **66. Plus One**
+- **50. Pow(x, n)**
+- **43. Multiply Strings**
+
+---
+
 
 # STEP 2: Trees & Linked Lists (Phase 2 · Week 3)
 
@@ -123,12 +146,13 @@
 - ✅**875. Koko Eating Bananas**
 - ✅**1011. Capacity To Ship Packages Within D Days**
 - ✅**410. Split Array Largest Sum**
+- **GFG: Allocate Minimum Number of Pages-[link](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)**
 
-👉 Focus: monotonic condition, low/high answer space
+👉 Focus: monotonic condition, answer space
 ---
 
 ### 🔹 Heap / Priority Queue
-- **215. Kth Largest Element in an Array**
+- ✅**215. Kth Largest Element in an Array**
 - **347. Top K Frequent Elements**
 - **703. Kth Largest Element in a Stream**
 
@@ -211,97 +235,15 @@
 Happy coding!
 
 --------------------------------------------------------------------
-## 1️⃣ How many questions are we solving?
 
-Below is a pattern-wise count based on what you now have (**Phase 1 + Phase 2**).
 
-### 🔹 HashMap / Counting
-- Phase 1: 5
-- Phase 2: 10
-- ✅ **Total: 15**
-
-### 🔹 Sliding Window
-- Phase 1: 4
-- Phase 2: 4  
-- ✅ **Total: 8**
-
-### 🔹 Two Pointers
-- Phase 1: 4
-- Phase 2: 5  
-- ✅ **Total: 9**
-
-### 🔹 Stack
-- Phase 1: 3
-- Phase 2: 3  
-- ✅ **Total: 6**
-
-### 🔹 Recursion Basics
-- Phase 1: 2
-- Phase 2: 0  
-  - *(Intentional — recursion depth comes later via Trees / DP)*  
-- ✅ **Total: 2**
-
-### 🔹 Linked List
-- Phase 1: 2
-- Phase 2: 2  
-- ✅ **Total: 4**
-
-### 🔹 Binary Tree (DFS / BFS)
-- Phase 1: 6
-- Phase 2: 0  
-  - *(Company-level questions cover harder variants)*  
-- ✅ **Total: 6**
-
-### 🔹 Binary Search
-- Phase 1: 4
-- Phase 2 (Binary Search on Answer): 3  
-- ✅ **Total: 7**
-
-### 🔹 Heap / Priority Queue
-- Phase 1 only: 3  
-- ✅ **Total: 3**
-
-### 🔹 Monotonic Stack
-- Phase 1 only: 3  
-- ✅ **Total: 3**
-
-### 🔹 Greedy
-- Phase 1 only: 3  
-- ✅ **Total: 3**
-
-### 🔹 Backtracking
-- Phase 1 only: 3  
-- ✅ **Total: 3**
-
-### 🔹 Dynamic Programming
-- 1D DP: 3
-- 2D DP: 3
-- String DP: 2  
-- ✅ **Total: 8**
-
-### 🔹 Company-Level Practice
-- ✅ **Total: 8**
-
----
-
-## 🎯 Grand Total
-- ✅ **≈ 85–90 questions**
-
-This is very solid:
-- Enough for **AI interviews**
-- Enough for **mid-level Rails / React roles**
-- Not bloated like **300-question sheets**
-
----
-
-## 2️⃣ Are we missing any EASY questions?
+## Are we missing any EASY questions?
 
 Only a few optional easies — **not blockers**.
 
 ### 🟡 Optional Easy Adds (Only if you want extra confidence)
 
 #### 🔹 HashMap
-- **1. Two Sum** ✅ already there (perfect)
 - **290. Word Pattern** (easy interview favorite)
 
 #### 🔹 Sliding Window
@@ -323,3 +265,6 @@ Only a few optional easies — **not blockers**.
 ### ✅ Important
 You are **NOT missing any “must-do” easy questions**.  
 These are only for **warming up or confidence**.
+
+2828 - Check if a String is an Acronym of Words
+
