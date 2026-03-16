@@ -42,9 +42,7 @@ Seen this question in a real interview before?
 def single_number(nums)
     result = 0
 
-    nums.each do |num|
-        result ^= num
-    end
+    nums.each { |num| result ^= num }
     
     result
 end
