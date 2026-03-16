@@ -52,19 +52,19 @@ class ListNode
     end
 end
 
+# Floyd's Cycle Detection - Two Pointer
+
 # @param {ListNode} head
 # @return {Boolean}
 def hasCycle(head)
-    return false unless head 
     slow = head
-    fast = head.next
+    fast = head
 
-    while slow != fast
-        if fast == nil or fast.next == nil
-            return false
-        end
-        slow = slow.next
-        fast = fast.next.next
+    until fast.nil? || fast.next.nil?
+      slow = slow.next
+      fast = fast.next.next
+      return true if slow == fast
     end
-    return true
+
+    false
 end
