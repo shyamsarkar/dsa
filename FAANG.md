@@ -1,210 +1,208 @@
 # Phase 1 — Core Foundations (20 Problems)
 
 ## HashMap / Counting
-1. Two Sum
-217. Contains Duplicate
-242. Valid Anagram
-169. Majority Element
-219. Contains Duplicate II
+- 1. Two Sum
+- 217. Contains Duplicate
+- 242. Valid Anagram
+- 169. Majority Element
+- 219. Contains Duplicate II
 
 ## Two Pointers
-283. Move Zeroes
-344. Reverse String
-125. Valid Palindrome
-167. Two Sum II – Input Array Is Sorted
-977. Squares of a Sorted Array
+- 283. Move Zeroes
+- 344. Reverse String
+- 125. Valid Palindrome
+- 167. Two Sum II – Input Array Is Sorted
+- 977. Squares of a Sorted Array
 
 ## Sliding Window
-121. Best Time to Buy and Sell Stock
-53. Maximum Subarray
-643. Maximum Average Subarray I
-3. Longest Substring Without Repeating Characters
+- 121. Best Time to Buy and Sell Stock
+- 53. Maximum Subarray
+- 643. Maximum Average Subarray I
+- 3. Longest Substring Without Repeating Characters
 
 ## Stack
-20. Valid Parentheses
-232. Implement Queue using Stacks
-155. Min Stack
+- 20. Valid Parentheses
+- 232. Implement Queue using Stacks
+- 155. Min Stack
 
 ## Math
-7. Reverse Integer
-9. Palindrome Number
-66. Plus One
+- 7. Reverse Integer
+- 9. Palindrome Number
+- 66. Plus One
 
 
 # Phase 2 — Pattern Mastery (35 Problems)
 
 ## HashMap Advanced
-49. Group Anagrams
-383. Ransom Note
-387. First Unique Character in a String
-389. Find The Difference
-409. Longest Palindrome
-451. Sort Characters By Frequency
-560. Subarray Sum Equals K
-454. 4Sum II
-205. Isomorphic Strings
+- 49. Group Anagrams
+- 383. Ransom Note
+- 387. First Unique Character in a String
+- 389. Find The Difference
+- 409. Longest Palindrome
+- 451. Sort Characters By Frequency
+- 560. Subarray Sum Equals K
+- 454. 4Sum II
+- 205. Isomorphic Strings
 
 ## Sliding Window Advanced
-76. Minimum Window Substring
-438. Find All Anagrams in a String
-567. Permutation in String
-424. Longest Repeating Character Replacement
-209. Minimum Size Subarray Sum
+- 76. Minimum Window Substring
+- 438. Find All Anagrams in a String
+- 567. Permutation in String
+- 424. Longest Repeating Character Replacement
+- 209. Minimum Size Subarray Sum
 
 ## Two Pointers Advanced
-15. 3Sum
-18. 4Sum
-11. Container With Most Water
-349. Intersection of Two Arrays
-202. Happy Number
+- 15. 3Sum
+- 18. 4Sum
+- 11. Container With Most Water
+- 349. Intersection of Two Arrays
+- 202. Happy Number
 
 ## Prefix Sum
-303. Range Sum Query
-724. Find Pivot Index
-525. Contiguous Array
-560. Subarray Sum Equals K
+- 303. Range Sum Query
+- 724. Find Pivot Index
+- 525. Contiguous Array
+- 560. Subarray Sum Equals K
 
 ## Math / Number
-50. Pow(x, n)
-43. Multiply Strings
+- 50. Pow(x, n)
+- 43. Multiply Strings
 
 
 # Phase 3 — Linked Lists & Recursion (15 Problems)
 
-206. Reverse Linked List
-141. Linked List Cycle
-142. Linked List Cycle II
-21. Merge Two Sorted Lists
-19. Remove Nth Node From End of List
-234. Palindrome Linked List
-2. Add Two Numbers
-160. Intersection of Two Linked Lists
+- 206. Reverse Linked List
+- 141. Linked List Cycle
+- 142. Linked List Cycle II
+- 21. Merge Two Sorted Lists
+- 19. Remove Nth Node From End of List
+- 234. Palindrome Linked List
+- 2. Add Two Numbers
+- 160. Intersection of Two Linked Lists
 
 ## Recursion
-509. Fibonacci Number
-70. Climbing Stairs
-231. Power of Two
-50. Pow(x, n)
+- 509. Fibonacci Number
+- 70. Climbing Stairs
+- 231. Power of Two
+- 50. Pow(x, n)
 
 
 # Phase 4 — Trees (25 Problems)
 
-226. Invert Binary Tree
-104. Maximum Depth of Binary Tree
-111. Minimum Depth of Binary Tree
-543. Diameter of Binary Tree
-100. Same Tree
-101. Symmetric Tree
-112. Path Sum
-113. Path Sum II
-110. Balanced Binary Tree
-257. Binary Tree Paths
-235. Lowest Common Ancestor of BST
-236. Lowest Common Ancestor of Binary Tree
-199. Binary Tree Right Side View
-102. Binary Tree Level Order Traversal
-103. Binary Tree Zigzag Level Order Traversal
-124. Binary Tree Maximum Path Sum
-129. Sum Root to Leaf Numbers
+- 226. Invert Binary Tree
+- 104. Maximum Depth of Binary Tree
+- 111. Minimum Depth of Binary Tree
+- 543. Diameter of Binary Tree
+- 100. Same Tree
+- 101. Symmetric Tree
+- 112. Path Sum
+- 113. Path Sum II
+- 110. Balanced Binary Tree
+- 257. Binary Tree Paths
+- 235. Lowest Common Ancestor of BST
+- 236. Lowest Common Ancestor of Binary Tree
+- 199. Binary Tree Right Side View
+- 102. Binary Tree Level Order Traversal
+- 103. Binary Tree Zigzag Level Order Traversal
+- 124. Binary Tree Maximum Path Sum
+- 129. Sum Root to Leaf Numbers
 
 
 # Phase 5 — Binary Search Mastery (15 Problems)
 
-704. Binary Search
-35. Search Insert Position
-278. First Bad Version
-33. Search in Rotated Sorted Array
-81. Search in Rotated Sorted Array II
-153. Find Minimum in Rotated Sorted Array
-34. Find First and Last Position
-875. Koko Eating Bananas
-1011. Capacity To Ship Packages Within D Days
-410. Split Array Largest Sum
-
-GFG:
-Allocate Minimum Number of Pages
+- 704. Binary Search
+- 35. Search Insert Position
+- 278. First Bad Version
+- 33. Search in Rotated Sorted Array
+- 81. Search in Rotated Sorted Array II
+- 153. Find Minimum in Rotated Sorted Array
+- 34. Find First and Last Position
+- 875. Koko Eating Bananas
+- 1011. Capacity To Ship Packages Within D Days
+- 410. Split Array Largest Sum
+- GFG: Allocate Minimum Number of Pages
 
 
 # Phase 6 — Heap / Priority Queue (10 Problems)
 
-215. Kth Largest Element in an Array
-703. Kth Largest Element in a Stream
-347. Top K Frequent Elements
-973. K Closest Points to Origin
-295. Find Median from Data Stream
-621. Task Scheduler
+- 215. Kth Largest Element in an Array
+- 703. Kth Largest Element in a Stream
+- 347. Top K Frequent Elements
+- 973. K Closest Points to Origin
+- 295. Find Median from Data Stream
+- 621. Task Scheduler
 
 
 # Phase 7 — Monotonic Stack (10 Problems)
 
-739. Daily Temperatures
-496. Next Greater Element I
-503. Next Greater Element II
-901. Online Stock Span
-84. Largest Rectangle in Histogram
-42. Trapping Rain Water
+- 739. Daily Temperatures
+- 496. Next Greater Element I
+- 503. Next Greater Element II
+- 901. Online Stock Span
+- 84. Largest Rectangle in Histogram
+- 42. Trapping Rain Water
 
 
 # Phase 8 — Greedy (10 Problems)
 
-122. Best Time to Buy and Sell Stock II
-455. Assign Cookies
-860. Lemonade Change
-55. Jump Game
-45. Jump Game II
-134. Gas Station
-435. Non-overlapping Intervals
+- 122. Best Time to Buy and Sell Stock II
+- 455. Assign Cookies
+- 860. Lemonade Change
+- 55. Jump Game
+- 45. Jump Game II
+- 134. Gas Station
+- 435. Non-overlapping Intervals
 
 
 # Phase 9 — Backtracking (10 Problems)
 
-78. Subsets
-90. Subsets II
-46. Permutations
-47. Permutations II
-77. Combinations
-39. Combination Sum
-40. Combination Sum II
-131. Palindrome Partitioning
+- 78. Subsets
+- 90. Subsets II
+- 46. Permutations
+- 47. Permutations II
+- 77. Combinations
+- 39. Combination Sum
+- 40. Combination Sum II
+- 131. Palindrome Partitioning
 
 
 # Phase 10 — Graphs (15 Problems)
 
-200. Number of Islands
-133. Clone Graph
-207. Course Schedule
-210. Course Schedule II
-994. Rotting Oranges
-417. Pacific Atlantic Water Flow
-695. Max Area of Island
-684. Redundant Connection
-743. Network Delay Time
+- 200. Number of Islands
+- 133. Clone Graph
+- 207. Course Schedule
+- 210. Course Schedule II
+- 994. Rotting Oranges
+- 417. Pacific Atlantic Water Flow
+- 695. Max Area of Island
+- 684. Redundant Connection
+- 743. Network Delay Time
 
 
 # Phase 11 — Dynamic Programming (20 Problems)
 
 ## 1D DP
-70. Climbing Stairs
-198. House Robber
-213. House Robber II
-746. Min Cost Climbing Stairs
+- 70. Climbing Stairs
+- 198. House Robber
+- 213. House Robber II
+- 746. Min Cost Climbing Stairs
 
 ## 2D DP
-62. Unique Paths
-63. Unique Paths II
-64. Minimum Path Sum
-1143. Longest Common Subsequence
-72. Edit Distance
+- 62. Unique Paths
+- 63. Unique Paths II
+- 64. Minimum Path Sum
+- 1143. Longest Common Subsequence
+- 72. Edit Distance
 
 ## DP on Strings
-392. Is Subsequence
-516. Longest Palindromic Subsequence
-5. Longest Palindromic Substring
+- 392. Is Subsequence
+- 516. Longest Palindromic Subsequence
+- 5. Longest Palindromic Substring
 
 ## Knapsack Style
-322. Coin Change
-518. Coin Change II
-416. Partition Equal Subset Sum
+- 322. Coin Change
+- 518. Coin Change II
+- 416. Partition Equal Subset Sum
 
 
 
