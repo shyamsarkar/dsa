@@ -43,7 +43,7 @@
 - ✅**344. Reverse String**
 - ✅**125. Valid Palindrome**
 - ✅**167. Two Sum II – Input Array Is Sorted**
-- **977. Squares of a Sorted Array**
+- ✅**977. Squares of a Sorted Array**
 
 👉 Focus: pointer movement, sorted arrays
 ---
@@ -75,7 +75,7 @@
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
 - **205. Isomorphic Strings**
-- **3046**
+- **3046. Split the Array**
 
 👉 Focus: prefix sums, frequency counting
 ---
