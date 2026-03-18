@@ -20,45 +20,45 @@
 ---
 
 ### 🔹 HashMap / Counting
-- ✅**1. Two Sum**
-- ✅**217. Contains Duplicate**
-- ✅**242. Valid Anagram**
-- ✅**169. Majority Element**
-- ✅**219. Contains Duplicate II**
+- **✅ 1. Two Sum**
+- **✅ 217. Contains Duplicate**
+- **✅ 242. Valid Anagram**
+- **✅ 169. Majority Element**
+- **✅ 219. Contains Duplicate II**
 
 👉 Focus: frequency counting, hash lookups
 ---
 
 ### 🔹 Sliding Window
-- ✅**121. Best Time to Buy and Sell Stock**
-- ✅**53. Maximum Subarray**
-- ✅**643. Maximum Average Subarray I**
-- ✅**3. Longest Substring Without Repeating Characters**
+- **✅ 121. Best Time to Buy and Sell Stock**
+- **✅ 53. Maximum Subarray**
+- **✅ 643. Maximum Average Subarray I**
+- **✅ 3. Longest Substring Without Repeating Characters**
 
 👉 Focus: fixed vs variable window
 ---
 
 ### 🔹 Two Pointers
-- ✅**283. Move Zeroes**
-- ✅**344. Reverse String**
-- ✅**125. Valid Palindrome**
-- ✅**167. Two Sum II – Input Array Is Sorted**
-- ✅**977. Squares of a Sorted Array**
+- **✅ 283. Move Zeroes**
+- **✅ 344. Reverse String**
+- **✅ 125. Valid Palindrome**
+- **✅ 167. Two Sum II – Input Array Is Sorted**
+- **✅ 977. Squares of a Sorted Array**
 
 👉 Focus: pointer movement, sorted arrays
 ---
 
 ### 🔹 Stack
-- ✅**20. Valid Parentheses**
-- ✅**232. Implement Queue using Stacks**
-- ✅**155. Min Stack**
+- **✅ 20. Valid Parentheses**
+- **✅ 232. Implement Queue using Stacks**
+- **✅ 155. Min Stack**
 
 👉 Focus: stack operations
 ---
 
 ### 🔹 Recursion Basics
-- ✅**509. Fibonacci Number**
-- ✅**206. Reverse Linked List (Recursive)**
+- **✅ 509. Fibonacci Number**
+- **✅ 206. Reverse Linked List (Recursive)**
 
 ---
 
@@ -75,7 +75,7 @@
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
 - **205. Isomorphic Strings**
-- **3046. Split the Array**
+- **✅ 3046. Split the Array**
 
 👉 Focus: prefix sums, frequency counting
 ---
@@ -117,19 +117,19 @@
 # STEP 2: Trees & Linked Lists (Phase 2 · Week 3)
 
 ### 🔹 Linked List Patterns
-- ✅**206. Reverse Linked List**
-- ✅**141. Linked List Cycle**
-- ✅**21. Merge Two Sorted Lists**
+- **✅ 206. Reverse Linked List**
+- **✅ 141. Linked List Cycle**
+- **✅ 21. Merge Two Sorted Lists**
 - **19. Remove Nth Node From End of List**
 
 ---
 
 ### 🔹 Binary Tree (DFS / BFS)
-- ✅**226. Invert Binary Tree**
-- ✅**104. Maximum Depth of Binary Tree**
-- ✅**111. Minimum Depth of Binary Tree**
-- ✅**543. Diameter of Binary Tree**
-- ✅**100. Same Tree**
+- **✅ 226. Invert Binary Tree**
+- **✅ 104. Maximum Depth of Binary Tree**
+- **✅ 111. Minimum Depth of Binary Tree**
+- **✅ 543. Diameter of Binary Tree**
+- **✅ 100. Same Tree**
 - **101. Symmetric Tree**
 
 ---
@@ -137,22 +137,22 @@
 # STEP 3: Advanced Patterns (Phase 3 · Week 4–5)
 
 ### 🔹 Binary Search
-- ✅**704. Binary Search**
-- ✅**35. Search Insert Position**
+- **✅ 704. Binary Search**
+- **✅ 35. Search Insert Position**
 - **33. Search in Rotated Sorted Array**
-- ✅**278. First Bad Version**
+- **✅ 278. First Bad Version**
 
 **Phase 2 (Binary Search on Answer)**
-- ✅**875. Koko Eating Bananas**
-- ✅**1011. Capacity To Ship Packages Within D Days**
-- ✅**410. Split Array Largest Sum**
+- **✅ 875. Koko Eating Bananas**
+- **✅ 1011. Capacity To Ship Packages Within D Days**
+- **✅ 410. Split Array Largest Sum**
 - **GFG: Allocate Minimum Number of Pages-[link](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)**
 
 👉 Focus: monotonic condition, answer space
 ---
 
 ### 🔹 Heap / Priority Queue
-- ✅**215. Kth Largest Element in an Array**
+- **✅ 215. Kth Largest Element in an Array**
 - **347. Top K Frequent Elements**
 - **703. Kth Largest Element in a Stream**
 
