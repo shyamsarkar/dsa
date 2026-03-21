@@ -57,16 +57,16 @@ Tests:
 
 # Ruby Solution (using Set)
 def is_happy(n)
-    seen = Set.new
+  seen = Set.new
 
-    while n != 1
-        return false if seen.include?(n)
-        
-        seen.add(n)
-        n = n.digits.sum { |d| d * d }
-    end
+  while n != 1
+    return false if seen.include?(n)
+    
+    seen.add(n)
+    n = next_number(n) # n.digits.sum { |d| d * d }
+  end
 
-    true
+  true
 end
 
 # 🚀 Happy Number using Floyd’s Cycle Detection (O(1) Space)

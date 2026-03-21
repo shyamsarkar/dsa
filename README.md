@@ -81,7 +81,7 @@
 ---
 
 ### 🔹 Sliding Window
-- **76. Minimum Window Substring**
+- **76. Minimum Window Substring (Hard)**
 - **438. Find All Anagrams in a String**
 - **567. Permutation in String**
 - **424. Longest Repeating Character Replacement**
