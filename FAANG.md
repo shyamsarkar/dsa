@@ -35,10 +35,10 @@
 
 ## HashMap Advanced
 - **49. Group Anagrams**
-- **383. Ransom Note**
-- **387. First Unique Character in a String**
-- **389. Find The Difference**
-- **409. Longest Palindrome**
+- **✅ 383. Ransom Note**
+- **✅ 387. First Unique Character in a String**
+- **✅ 389. Find The Difference**
+- **✅ 409. Longest Palindrome**
 - **451. Sort Characters By Frequency**
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
@@ -56,7 +56,7 @@
 - **18. 4Sum**
 - **11. Container With Most Water**
 - **349. Intersection of Two Arrays**
-- **202. Happy Number**
+- **✅ 202. Happy Number**
 
 ## Prefix Sum
 - **303. Range Sum Query**
@@ -71,17 +71,17 @@
 
 # Phase 3 — Linked Lists & Recursion (15 Problems)
 
-- **206. Reverse Linked List**
-- **141. Linked List Cycle**
+- **✅ 206. Reverse Linked List**
+- **✅ 141. Linked List Cycle**
 - **142. Linked List Cycle II**
-- **21. Merge Two Sorted Lists**
+- **✅ 21. Merge Two Sorted Lists**
 - **19. Remove Nth Node From End of List**
 - **234. Palindrome Linked List**
 - **2. Add Two Numbers**
 - **160. Intersection of Two Linked Lists**
 
 ## Recursion
-- **509. Fibonacci Number**
+- **✅ 509. Fibonacci Number**
 - **70. Climbing Stairs**
 - **231. Power of Two**
 - **50. Pow(x, n)**
@@ -89,11 +89,11 @@
 
 # Phase 4 — Trees (25 Problems)
 
-- **226. Invert Binary Tree**
-- **104. Maximum Depth of Binary Tree**
-- **111. Minimum Depth of Binary Tree**
-- **543. Diameter of Binary Tree**
-- **100. Same Tree**
+- **✅ 226. Invert Binary Tree**
+- **✅ 104. Maximum Depth of Binary Tree**
+- **✅ 111. Minimum Depth of Binary Tree**
+- **✅ 543. Diameter of Binary Tree**
+- **✅ 100. Same Tree**
 - **101. Symmetric Tree**
 - **112. Path Sum**
 - **113. Path Sum II**
@@ -110,22 +110,22 @@
 
 # Phase 5 — Binary Search Mastery (15 Problems)
 
-- **704. Binary Search**
-- **35. Search Insert Position**
-- **278. First Bad Version**
+- **✅ 704. Binary Search**
+- **✅ 35. Search Insert Position**
+- **✅ 278. First Bad Version**
 - **33. Search in Rotated Sorted Array**
 - **81. Search in Rotated Sorted Array II**
 - **153. Find Minimum in Rotated Sorted Array**
 - **34. Find First and Last Position**
-- **875. Koko Eating Bananas**
-- **1011. Capacity To Ship Packages Within D Days**
-- **410. Split Array Largest Sum**
+- **✅ 875. Koko Eating Bananas**
+- **✅ 1011. Capacity To Ship Packages Within D Days**
+- **✅ 410. Split Array Largest Sum**
 - **GFG: Allocate Minimum Number of Pages**
 
 
 # Phase 6 — Heap / Priority Queue (10 Problems)
 
-- **215. Kth Largest Element in an Array**
+- **✅ 215. Kth Largest Element in an Array**
 - **703. Kth Largest Element in a Stream**
 - **347. Top K Frequent Elements**
 - **973. K Closest Points to Origin**

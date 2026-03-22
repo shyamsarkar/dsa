@@ -46,14 +46,10 @@ Seen this question in a real interview before?
 
 def min_depth(root)
   return 0 if root.nil?
-
-  if root.left.nil?
-    return min_depth(root.right) + 1
-  end
-
-  if root.right.nil?
-    return min_depth(root.left) + 1
-  end
+  
+  return min_depth(root.right) + 1 if root.left.nil?
+  
+  return min_depth(root.left) + 1 if root.right.nil?
 
   [min_depth(root.left), min_depth(root.right)].min + 1
 end
