@@ -105,8 +105,8 @@
 ---
 
 ### 🔹 Math / Number Manipulation
-- **7. Reverse Integer**
-- **9. Palindrome Number**
+- **✅ 7. Reverse Integer**
+- **✅ 9. Palindrome Number**
 - **66. Plus One**
 - **50. Pow(x, n)**
 - **43. Multiply Strings**
