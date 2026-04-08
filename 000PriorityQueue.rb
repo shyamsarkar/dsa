@@ -47,6 +47,32 @@ class PriorityQueue
     end
   end
 
+  def ibubble_up(index)
+    while index > 0
+      parent = (index - 1) / 2
+      break if @heap[parent][0] <= @heap[index][0]
+
+      swap(index, parent)
+      index = parent  # move up
+    end
+  end
+
+  def ibubble_down(index)
+    loop do
+      left    = 2 * index + 1
+      right   = 2 * index + 2
+      smallest = index
+
+      smallest = left  if left  < @heap.size && @heap[left][0]  < @heap[smallest][0]
+      smallest = right if right < @heap.size && @heap[right][0] < @heap[smallest][0]
+
+      break if smallest == index
+
+      swap(index, smallest)
+      index = smallest  # move down
+    end
+  end
+
   def swap(i, j)
     @heap[i], @heap[j] = @heap[j], @heap[i]
   end
