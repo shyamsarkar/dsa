@@ -113,6 +113,15 @@
 
 ---
 
+### 🔹 String Patterns (Pattern Recognition)
+- **✅ 796. Rotate String**
+- **28. Find the Index of the First Occurrence in a String**
+- **14. Longest Common Prefix**
+
+👉 Focus: substring tricks, pattern observation
+
+---
+
 
 # STEP 2: Trees & Linked Lists (Phase 2 · Week 3)
 
