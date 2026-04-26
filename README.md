@@ -107,6 +107,9 @@
 ### 🔹 Math / Number Manipulation
 - **✅ 7. Reverse Integer**
 - **✅ 9. Palindrome Number**
+- **231. Power of Two**
+- **191. Number of 1 Bits**
+- **338. Counting Bits**
 - **66. Plus One**
 - **50. Pow(x, n)**
 - **43. Multiply Strings**
