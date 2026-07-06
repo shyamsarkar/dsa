@@ -99,7 +99,7 @@
 
 ### 🔹 Stack
 - **739. Daily Temperatures**
-- **496. Next Greater Element I**
+- **✅ 496. Next Greater Element I**
 - **150. Evaluate Reverse Polish Notation**
 
 ---
