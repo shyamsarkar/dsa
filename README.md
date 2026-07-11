@@ -1,70 +1,63 @@
 # 🧠 LeetCode Roadmap for Ruby / Rails Developers
----
 
-## ⏱️ Daily Commitment
-- **60–90 minutes/day**
-- **1–2 problems/day**
-- Focus on *why* the solution works
+> **Goal:** Learn the core patterns first, strengthen them with medium problems, then move to advanced algorithms. Revisit **patterns**, not individual questions.
 
 ---
 
-# STEP 1: Solidify Core Patterns (Phase 1 · Week 1–2)
+# 🚀 Round 1 — Learn Core Patterns (Must Do)
 
-### 🔹 Must-Know Patterns
-- Two Pointers
-- Sliding Window
-- HashMap + Counting
-- Stack usage
-- Recursion basics
-
----
-
-### 🔹 HashMap / Counting
+## 🔹 HashMap / Counting
 - **✅ 1. Two Sum**
 - **✅ 217. Contains Duplicate**
 - **✅ 242. Valid Anagram**
 - **✅ 169. Majority Element**
 - **✅ 219. Contains Duplicate II**
 
-👉 Focus: frequency counting, hash lookups
+> **Focus:** Frequency counting, hash lookups
+
 ---
 
-### 🔹 Sliding Window
+## 🔹 Sliding Window
 - **✅ 121. Best Time to Buy and Sell Stock**
 - **✅ 53. Maximum Subarray**
 - **✅ 643. Maximum Average Subarray I**
 - **✅ 3. Longest Substring Without Repeating Characters**
 
-👉 Focus: fixed vs variable window
+> **Focus:** Fixed vs variable window
+
 ---
 
-### 🔹 Two Pointers
+## 🔹 Two Pointers
 - **✅ 283. Move Zeroes**
 - **✅ 344. Reverse String**
 - **✅ 125. Valid Palindrome**
 - **✅ 167. Two Sum II – Input Array Is Sorted**
 - **✅ 977. Squares of a Sorted Array**
 
-👉 Focus: pointer movement, sorted arrays
+> **Focus:** Pointer movement, sorted arrays
+
 ---
 
-### 🔹 Stack
+## 🔹 Stack
 - **✅ 20. Valid Parentheses**
 - **✅ 232. Implement Queue using Stacks**
 - **✅ 155. Min Stack**
 
-👉 Focus: stack operations
+> **Focus:** Stack operations
+
 ---
 
-### 🔹 Recursion Basics
+## 🔹 Recursion
 - **✅ 509. Fibonacci Number**
 - **✅ 206. Reverse Linked List (Recursive)**
 
+> **Focus:** Recursive thinking
+
 ---
 
-## Phase 2: Depth Building (Medium Problems)
+# 🚀 Round 2 — Strengthen Core Patterns
 
-### 🔹 HashMap / Counting
+## 🔹 HashMap / Counting
 - **49. Group Anagrams**
 - **✅ 383. Ransom Note**
 - **✅ 387. First Unique Character in a String**
@@ -77,58 +70,72 @@
 - **205. Isomorphic Strings**
 - **✅ 3046. Split the Array**
 
-👉 Focus: prefix sums, frequency counting
+> **Focus:** Prefix sums, advanced frequency counting
+
 ---
 
-### 🔹 Sliding Window
-- **76. Minimum Window Substring (Hard)**
+## 🔹 Sliding Window
 - **438. Find All Anagrams in a String**
 - **567. Permutation in String**
 - **424. Longest Repeating Character Replacement**
+- **76. Minimum Window Substring**
+
+> **Focus:** Variable window mastery
 
 ---
 
-### 🔹 Two Pointers
+## 🔹 Two Pointers
 - **15. 3Sum**
 - **11. Container With Most Water**
 - **18. 4Sum**
 - **✅ 202. Happy Number**
 - **349. Intersection of Two Arrays**
 
+> **Focus:** Multiple pointers, sorting, optimization
+
 ---
 
-### 🔹 Stack
+## 🔹 Stack
 - **739. Daily Temperatures**
 - **✅ 496. Next Greater Element I**
 - **150. Evaluate Reverse Polish Notation**
 
+> **Focus:** Monotonic stack introduction
+
 ---
 
-### 🔹 Math / Number Manipulation
+## 🔹 String
+- **✅ 796. Rotate String**
+- **28. Find the Index of the First Occurrence in a String**
+- **✅ 14. Longest Common Prefix**
+- **2828. Check if a String Is an Acronym of Words**
+- **58. Length of Last Word**
+- **13. Roman to Integer**
+- **168. Excel Sheet Column Title**
+- **171. Excel Sheet Column Number**
+- **709. To Lower Case**
+
+> **Focus:** Pattern recognition and string manipulation
+
+---
+
+## 🔹 Math / Bit Manipulation
 - **✅ 7. Reverse Integer**
 - **✅ 9. Palindrome Number**
+- **66. Plus One**
 - **231. Power of Two**
 - **191. Number of 1 Bits**
 - **338. Counting Bits**
-- **66. Plus One**
 - **50. Pow(x, n)**
 - **43. Multiply Strings**
 
----
-
-### 🔹 String Patterns (Pattern Recognition)
-- **✅ 796. Rotate String**
-- **28. Find the Index of the First Occurrence in a String**
-- **14. Longest Common Prefix**
-
-👉 Focus: substring tricks, pattern observation
+> **Focus:** Mathematical reasoning and bit operations
 
 ---
 
+# 🚀 Round 3 — Trees & Linked Lists
 
-# STEP 2: Trees & Linked Lists (Phase 2 · Week 3)
-
-### 🔹 Linked List Patterns
+## 🔹 Linked List
 - **✅ 206. Reverse Linked List**
 - **✅ 141. Linked List Cycle**
 - **✅ 21. Merge Two Sorted Lists**
@@ -136,7 +143,7 @@
 
 ---
 
-### 🔹 Binary Tree (DFS / BFS)
+## 🔹 Binary Tree (DFS / BFS)
 - **✅ 226. Invert Binary Tree**
 - **✅ 104. Maximum Depth of Binary Tree**
 - **✅ 111. Minimum Depth of Binary Tree**
@@ -144,82 +151,84 @@
 - **✅ 100. Same Tree**
 - **✅ 101. Symmetric Tree**
 
+> **Focus:** DFS, BFS, recursion on trees
+
 ---
 
-# STEP 3: Advanced Patterns (Phase 3 · Week 4–5)
+# 🚀 Round 4 — Advanced Patterns
 
-### 🔹 Binary Search
+## 🔹 Binary Search
 - **✅ 704. Binary Search**
 - **✅ 35. Search Insert Position**
 - **33. Search in Rotated Sorted Array**
 - **✅ 278. First Bad Version**
 
-**Phase 2 (Binary Search on Answer)**
+### Binary Search on Answer
 - **✅ 875. Koko Eating Bananas**
 - **✅ 1011. Capacity To Ship Packages Within D Days**
 - **✅ 410. Split Array Largest Sum**
-- **GFG: Allocate Minimum Number of Pages-[link](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)**
+- **GFG: Allocate Minimum Number of Pages**
 
-👉 Focus: monotonic condition, answer space
+> **Focus:** Monotonic condition and answer space
+
 ---
 
-### 🔹 Heap / Priority Queue
+## 🔹 Heap / Priority Queue
 - **✅ 215. Kth Largest Element in an Array**
 - **347. Top K Frequent Elements**
 - **703. Kth Largest Element in a Stream**
 
 ---
 
-### 🔹 Monotonic Stack
+## 🔹 Monotonic Stack
 - **739. Daily Temperatures**
-- **496. Next Greater Element I**
+- **✅ 496. Next Greater Element I**
 - **503. Next Greater Element II**
 
 ---
 
-### 🔹 Greedy
+## 🔹 Greedy
 - **122. Best Time to Buy and Sell Stock II**
-- **455. Assign Cookies**
-- **860. Lemonade Change**
+- **✅ 455. Assign Cookies**
+- **✅ 860. Lemonade Change**
 
 ---
 
-### 🔹 Backtracking
+## 🔹 Backtracking
 - **78. Subsets**
 - **46. Permutations**
 - **77. Combinations**
 
 ---
 
-# STEP 4: Dynamic Programming (Phase 4 · Week 6–7)
+# 🚀 Round 5 — Dynamic Programming
 
-> ⚠️ Do not rush DP. Focus on state, recurrence, and optimization.
+> ⚠️ Don't rush DP. Focus on state, recurrence, and optimization.
 
----
-
-### 🔹 1D DP
-- **70. Climbing Stairs**
-- **198. House Robber**
+## 🔹 1D DP
+- **✅ 70. Climbing Stairs**
+- **✅ 198. House Robber**
 - **746. Min Cost Climbing Stairs**
 
 ---
 
-### 🔹 2D DP
+## 🔹 2D DP
 - **62. Unique Paths**
 - **1143. Longest Common Subsequence**
 - **322. Coin Change**
 
 ---
 
-### 🔹 DP on Strings
+## 🔹 DP on Strings
 - **392. Is Subsequence**
 - **516. Longest Palindromic Subsequence**
 
 ---
 
-# STEP 5: Company-Level Practice (Phase 5 · Week 8+)
+# 🚀 Round 6 — Interview Favorites
 
-### 🔹 Interview Favorites (Mostly Medium)
+These combine multiple patterns and are frequently asked in interviews.
+
 - **102. Binary Tree Level Order Traversal**
 - **98. Validate Binary Search Tree**
 - **199. Binary Tree Right Side View**
@@ -231,52 +240,59 @@
 
 ---
 
-# 🧠 Ruby Interview Tips
+# ⭐ Optional Easy Practice
 
-- Prefer clarity over cleverness
-- Use:
-  - `Hash.new(0)`
-  - `each_with_index`
-  - `Array#push`, `Array#pop`
-- Avoid heavy Ruby magic in interviews
-- Always explain your approach before coding
+These are good confidence boosters but are **not mandatory**.
+
+## 🔹 HashMap
+- **290. Word Pattern**
 
 ---
 
-🚀 This roadmap is enough for most product-based company interviews.
-Happy coding!
-
---------------------------------------------------------------------
-
-
-## Are we missing any EASY questions?
-
-Only a few optional easies — **not blockers**.
-
-### 🟡 Optional Easy Adds (Only if you want extra confidence)
-
-#### 🔹 HashMap
-- **290. Word Pattern** (easy interview favorite)
-
-#### 🔹 Sliding Window
-- **219. Contains Duplicate II** ✅ already covered via HashMap
-- **187. Repeated DNA Sequences** (optional)
-
-#### 🔹 Two Pointers
-- **26. Remove Duplicates from Sorted Array**
-- **27. Remove Element**
-
-#### 🔹 Stack
-- **682. Baseball Game** (very easy stack warm-up)
-
-#### 🔹 Binary Search
-- **69. Sqrt(x)** (classic easy)
+## 🔹 Two Pointers
+- **✅ 26. Remove Duplicates from Sorted Array**
+- **✅ 27. Remove Element**
 
 ---
 
-### ✅ Important
-You are **NOT missing any “must-do” easy questions**.  
-These are only for **warming up or confidence**.
+## 🔹 Sliding Window
+- **187. Repeated DNA Sequences**
 
-2828 - Check if a String is an Acronym of Words
+---
 
+## 🔹 Stack
+- **682. Baseball Game**
+
+---
+
+## 🔹 Binary Search
+- **69. Sqrt(x)**
+
+---
+
+## 🔹 Miscellaneous
+- **2828. Check if a String Is an Acronym of Words**
+- **485. Max Consecutive Ones**
+- **724. Find Pivot Index**
+- **303. Range Sum Query – Immutable**
+
+---
+
+# 💎 Ruby Interview Tips
+
+- Prefer clarity over cleverness.
+- Explain your approach before writing code.
+- Use `Hash.new(0)` for frequency counting.
+- Know when to use `Set`.
+- Use `each_with_index` where appropriate.
+- Use `Array#push` / `Array#pop` for stack problems.
+- Avoid clever Ruby one-liners during interviews.
+- Always discuss time and space complexity before coding.
+
+---
+
+## 🎯 Goal
+
+If you complete **Rounds 1–6**, you'll have covered the vast majority of patterns asked in product-based company interviews.
+
+Happy Coding! 🚀
