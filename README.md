@@ -246,6 +246,9 @@ These are good confidence boosters but are **not mandatory**.
 
 ## 🔹 HashMap
 - **290. Word Pattern**
+- **✅ 1426. Counting Elements**
+- **1207. Unique Number of Occurrences**
+- **128. Longest Consecutive Sequence**
 
 ---
 
