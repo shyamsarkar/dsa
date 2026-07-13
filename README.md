@@ -63,7 +63,7 @@
 - **✅ 387. First Unique Character in a String**
 - **✅ 389. Find The Difference**
 - **✅ 409. Longest Palindrome**
-- **451. Sort Characters By Frequency**
+- **✅ 451. Sort Characters By Frequency**
 - **✅ 136. Single Number**
 - **560. Subarray Sum Equals K**
 - **454. 4Sum II**
