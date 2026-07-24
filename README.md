@@ -96,8 +96,6 @@
 ---
 
 ## 🔹 Stack
-- **739. Daily Temperatures**
-- **✅ 496. Next Greater Element I**
 - **150. Evaluate Reverse Polish Notation**
 
 > **Focus:** Monotonic stack introduction
@@ -181,7 +179,7 @@
 ---
 
 ## 🔹 Monotonic Stack
-- **739. Daily Temperatures**
+- **✅ 739. Daily Temperatures**
 - **✅ 496. Next Greater Element I**
 - **503. Next Greater Element II**
 
@@ -232,9 +230,7 @@ These combine multiple patterns and are frequently asked in interviews.
 - **102. Binary Tree Level Order Traversal**
 - **98. Validate Binary Search Tree**
 - **199. Binary Tree Right Side View**
-- **15. 3Sum**
 - **238. Product of Array Except Self**
-- **49. Group Anagrams**
 - **56. Merge Intervals**
 - **200. Number of Islands**
 
@@ -274,7 +270,6 @@ These are good confidence boosters but are **not mandatory**.
 ---
 
 ## 🔹 Miscellaneous
-- **2828. Check if a String Is an Acronym of Words**
 - **485. Max Consecutive Ones**
 - **724. Find Pivot Index**
 - **303. Range Sum Query – Immutable**
