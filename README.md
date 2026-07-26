@@ -96,9 +96,7 @@
 ---
 
 ## 🔹 Stack
-- **150. Evaluate Reverse Polish Notation**
-
-> **Focus:** Monotonic stack introduction
+- **✅ 150. Evaluate Reverse Polish Notation**
 
 ---
 
