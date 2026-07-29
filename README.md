@@ -102,7 +102,7 @@
 
 ## 🔹 String
 - **✅ 796. Rotate String**
-- **28. Find the Index of the First Occurrence in a String**
+- **✅ 28. Find the Index of the First Occurrence in a String**
 - **✅ 14. Longest Common Prefix**
 - **2828. Check if a String Is an Acronym of Words**
 - **58. Length of Last Word**
