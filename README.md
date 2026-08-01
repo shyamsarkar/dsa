@@ -179,7 +179,7 @@
 ## 🔹 Monotonic Stack
 - **✅ 739. Daily Temperatures**
 - **✅ 496. Next Greater Element I**
-- **503. Next Greater Element II**
+- **✅ 503. Next Greater Element II**
 
 ---
 
