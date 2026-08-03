@@ -58,7 +58,7 @@
 # 🚀 Round 2 — Strengthen Core Patterns
 
 ## 🔹 HashMap / Counting
-- **49. Group Anagrams**
+- **✅ 49. Group Anagrams**
 - **✅ 383. Ransom Note**
 - **✅ 387. First Unique Character in a String**
 - **✅ 389. Find The Difference**
