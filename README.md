@@ -67,7 +67,7 @@
 - **✅ 136. Single Number**
 - **✅ 560. Subarray Sum Equals K**
 - **454. 4Sum II**
-- **205. Isomorphic Strings**
+- **✅ 205. Isomorphic Strings**
 - **✅ 3046. Split the Array**
 
 > **Focus:** Prefix sums, advanced frequency counting
