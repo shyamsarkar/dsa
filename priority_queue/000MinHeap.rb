@@ -14,7 +14,9 @@
 # Min Heap: [1, 1, 2, 3, 3, 9, 4, 6, 5, 5, 5]
 
 def build_min_heap(arr)
-  (arr.size/2-1).downto(0) do |index|
+  index = arr.size - 1
+  parent = (index-1)/2
+  parent.downto(0) do |index|
     heapify(arr, index)
   end
 end
@@ -30,5 +32,62 @@ def heapify(arr, index)
   if smallest != index
     arr[smallest], arr[index] = arr[index], arr[smallest]
     heapify(arr, smallest)
+  end
+end
+
+# -----------------------------------------------------------
+class MinHeap
+  def initialize
+    @heap = []
+  end
+
+  def push(item)
+    @heap << item
+    bubble_up(@heap.size - 1)
+  end
+
+  def peek
+    @heap[0]
+  end
+
+  def pop
+    return nil if @heap.empty?
+
+    swap(0, @heap.size-1)
+    min = @heap.pop
+    bubble_down(0) unless @heap.empty?
+    min
+  end
+
+  def empty?
+    @heap.empty?
+  end
+
+  private
+
+  def bubble_up(index)
+    parent = (index - 1) / 2
+    if parent >= 0 && @heap[parent] > @heap[index]
+      swap(parent, index)
+      bubble_up(parent)
+    end
+  end
+
+  def bubble_down(index)
+    smallest = index
+    left  = 2 * index + 1
+    right = 2 * index + 2
+
+    smallest = left  if left  < @heap.size && @heap[left]  < @heap[smallest]
+    smallest = right if right < @heap.size && @heap[right] < @heap[smallest]
+
+    if smallest != index
+      swap(smallest, index)
+      bubble_down(smallest)
+    end
+  end
+
+  def swap(i, j)
+    @heap[i], @heap[j] = @heap[j], @heap[i]
   end
 end
