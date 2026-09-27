@@ -110,6 +110,7 @@
 - **168. Excel Sheet Column Title**
 - **171. Excel Sheet Column Number**
 - **709. To Lower Case**
+- **✅ 2278. Percentage of Letter in String**
 
 > **Focus:** Pattern recognition and string manipulation
 
