@@ -77,7 +77,7 @@
 ## 🔹 Sliding Window
 - **✅ 438. Find All Anagrams in a String**
 - **✅ 567. Permutation in String**
-- **424. Longest Repeating Character Replacement**
+- **✅ 424. Longest Repeating Character Replacement**
 - **76. Minimum Window Substring**
 
 > **Focus:** Variable window mastery
