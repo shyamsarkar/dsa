@@ -78,7 +78,7 @@
 - **✅ 438. Find All Anagrams in a String**
 - **✅ 567. Permutation in String**
 - **✅ 424. Longest Repeating Character Replacement**
-- **76. Minimum Window Substring**
+- **✅ 76. Minimum Window Substring**
 
 > **Focus:** Variable window mastery
 
@@ -244,6 +244,7 @@ These are good confidence boosters but are **not mandatory**.
 - **✅ 1426. Counting Elements**
 - **1207. Unique Number of Occurrences**
 - **128. Longest Consecutive Sequence**
+- **✅ Flatten Dot-Notation Keys to Nested Hash**
 
 ---
 
